@@ -14,6 +14,10 @@ class ComposerStaticInit3a5fa3a0bd3632331f2790b79d77f130
     );
 
     public static $prefixLengthsPsr4 = array (
+        'T' => 
+        array (
+            'TelegramBot\\TelegramBotManager\\' => 31,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
@@ -26,6 +30,7 @@ class ComposerStaticInit3a5fa3a0bd3632331f2790b79d77f130
         'L' => 
         array (
             'Longman\\TelegramBot\\' => 20,
+            'Longman\\IPTools\\' => 16,
         ),
         'G' => 
         array (
@@ -36,6 +41,10 @@ class ComposerStaticInit3a5fa3a0bd3632331f2790b79d77f130
     );
 
     public static $prefixDirsPsr4 = array (
+        'TelegramBot\\TelegramBotManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-telegram-bot/telegram-bot-manager/src',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
@@ -51,6 +60,10 @@ class ComposerStaticInit3a5fa3a0bd3632331f2790b79d77f130
         'Longman\\TelegramBot\\' => 
         array (
             0 => __DIR__ . '/..' . '/longman/telegram-bot/src',
+        ),
+        'Longman\\IPTools\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/longman/ip-tools/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
